@@ -1,0 +1,14 @@
+#Python 3.7.4
+#Levi McCan
+#11/1/2019
+#CIS2187
+#Kilometers Converter(5-1)
+
+#MAKE FUNCTION for miles, and variable kilometer
+def miles(kilometers):
+    #Miles = Kilometers x .06214
+    miles = kilometers * 0.6214
+    print(f"The conversion of {kilometers:.2f} kilometers\nto miles is {miles:.2f} miles.")
+#Conver miles to kilometers
+kilometers = float(input("Enter the distance in kilometers: " ))
+miles(kilometers)
