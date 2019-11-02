@@ -1,0 +1,14 @@
+#Python 3.7.4
+#Levi Mccann
+#11/1/2019
+#CIS2187
+#HowMuchInsurance (5-3)
+
+#Define function
+def replacement():
+    total =float(input("Enter the replacement amount: "))
+    min_rep = total * .8
+    print("Percent insured: 80%")
+    print(f"Minimum insurance: ${min_rep:.2f}")
+#call function
+replacement()
